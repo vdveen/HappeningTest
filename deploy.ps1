@@ -6,7 +6,7 @@ $Dest = [System.IO.Path]::GetTempFileName()
 
 # Read key from first argument
 if ($Args.length -eq 0) {
-    echo "Usage: .\$($MyInvocation.MyCommand.Name) 26728e118069920"
+    echo "Usage: .\$($MyInvocation.MyCommand.Name) <upload key>"
     Exit
 }
 
